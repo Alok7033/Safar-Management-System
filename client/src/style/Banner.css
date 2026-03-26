@@ -1,0 +1,69 @@
+.banner-wrapper {
+   background: linear-gradient(to top, #F5CBCB, #FAF7F3); 
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3.5rem;
+  padding-right: 2rem;
+  padding-top: 4.5rem;
+  background: linear-gradient(to right, #154D71, #33A1E0);
+  max-width: 72rem; /* max-w-6xl */
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .banner-container {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.banner-text {
+  color: white;
+}
+
+.banner-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 500;
+  margin-left: -6rem;
+}
+
+.banner-description {
+  margin-top: 0.5rem;
+  margin-left: -1.3rem;
+
+}
+
+.banner-highlight {
+  max-width: 32.5rem; /* max-w-130 = 130 * 0.25rem */
+  margin-left: -1.3rem;
+}
+
+.banner-button {
+  margin-top: 1.875rem; /* mt-7.5 = 7.5 * 0.25rem */
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+.banner-button:hover {
+  background-color: #f1f5f9; /* hover:bg-slate-100 */
+}
+
+.banner-image {
+  max-height: 22.5rem; /* max-h-90 = 90 * 0.25rem */
+}

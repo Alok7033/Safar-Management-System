@@ -1,0 +1,141 @@
+.app.light {
+  background-color:whitesmoke;
+  color: #000000;
+  transition: all 0.3s ease;
+  font-family: "Outfit", sans-serif;
+
+  .testimonial-card {
+      background: whitesmoke;
+    }
+/* 
+    .navbar-container{
+      background: linear-gradient(to left, #154D71, #33A1E0);
+     color: #eee;
+     } */
+    
+}
+
+.app.dark {
+    background: #154D71;
+    color: #ffffff;
+    font-family: "Outfit", sans-serif;
+
+    .title-subtitle{
+      color: rgb(206, 204, 204);
+    }
+
+    .navbar-wrapper{
+      background: #0d0d0d;
+      color: #eee;
+    }
+
+    .search-input{
+      color: #eee;
+    }
+
+    .carcard-header{
+      color: #000000;
+    }
+
+    .hero-form {
+      background: linear-gradient(to right, #f7bcbc, #faeddc);
+      color: #000000;
+      font-size: large;
+      font-weight: 600;
+      
+    }
+
+    .hero-wrapper{
+      background: #154D71 ;
+    }
+
+    .featured-wrapper{
+      background: #154D71 ;
+    }
+
+    .banner-wrapper{
+      background: #154D71 ;
+    }
+
+    .banner-container{
+      background: linear-gradient(to right, #f7bcbc, #faeddc);
+    }
+
+    .banner-text {
+     color:black;
+    }
+
+    .banner-button{
+       background-color: gray;
+       color: rgb(1, 1, 1);
+    }
+
+    .banner-button:hover {
+     background-color: #f1f5f9; /* hover:bg-slate-100 */
+    }
+
+    .testimonial-wrapper {
+      background: #154D71 ;
+    }
+
+    .testimonial-card {
+      background: linear-gradient(to right, #f7bcbc, #faeddc);
+    }
+
+    .testimonial-name{
+      color: #000000;
+    }
+
+    .newsletter-subtext{
+      color: rgb(206, 204, 204);
+    }
+
+    .newsletter-wrapper {
+      background: #154D71;
+    }
+
+    .booking-card{
+      border: 1px solid #ffffff;
+    }
+
+    .car-subtitle {
+     color: rgb(206, 204, 204);
+    }
+
+    .booking-number {
+      color: rgb(40, 40, 40);
+    }
+
+    .price-text p:first-child {
+      color: rgb(206, 204, 204);
+     }
+
+    .footer-wrapper {
+      background: #1a1a1a;
+      color: #eee;
+    }
+
+    .footer-heading{
+      color:#5c3ef4;
+    }
+    
+    .footer-socials {
+     filter: brightness(0) invert(1); 
+    }
+
+    .app{
+       background-color: #154D71 ;
+
+       h1 {
+        color: #fcf8f8;
+        }
+    }
+
+       
+
+}
+
+
+
+
+

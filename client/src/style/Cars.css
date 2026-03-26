@@ -1,0 +1,64 @@
+/* Cars.css */
+
+.cars-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 1rem;
+  /* background-color: #f9fafb; */
+}
+
+.cars-search-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 560px;
+  height: 48px;
+  border-radius: 9999px;
+  box-shadow: 3px 7px 21px rgba(0, 0, 0, 0.05);
+}
+
+.cars-search-box .icon {
+  width: 18px;
+  height: 18px;
+  margin: 0 0.5rem;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.cars-results-container {
+  padding: 2.5rem 1.5rem;
+  padding-bottom: 15rem;
+  
+}
+
+.cars-count {
+  color: #8baef1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+  max-width: 1280px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}

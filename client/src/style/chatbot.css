@@ -1,0 +1,57 @@
+/* .chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+
+}
+
+
+ */
+
+.chatbot-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1000;
+
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.4s ease;
+}
+
+/* Floating toggle button */
+.chatbot-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #007bff, #00b4d8);
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.chatbot-toggle:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #0056b3, #0096c7);
+}
+
+/* Smooth slide-up */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,37 @@
+/* src/style/NavbarOwner.css
+
+.navbar-owner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem; /* px-6 */
+ /* color: #6b7280; /* Tailwind's text-gray-500 
+  border-bottom: 1px solid black;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .navbar-owner {
+    padding-left: 2.5rem; /* md:px-10 
+    padding-right: 2.5rem;
+  }
+}
+
+.navbar-logo {
+  height: 1.75rem; /* h-7 
+} */
+
+
+/* NavbarOwner.css */
+
+.navbar-owner {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  max-height: 1.6cm;
+}
+
+.logo-img {
+  height: 3cm; /* equivalent to h-7 in Tailwind */
+}
+

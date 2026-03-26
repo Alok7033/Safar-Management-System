@@ -1,0 +1,48 @@
+
+
+
+.manage-bookings-wrapper {
+  max-width: 960px; /* set max width for the content */
+  margin: 0 auto; /* center horizontally */
+  padding-top: 20px;
+ 
+  
+}
+
+.car-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.custom-table-wrapper {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.custom-table thead th {
+  font-weight: 600;
+  color: #6c757d;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.status-select {
+  min-width: 120px;
+  font-size: 0.9rem;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .manage-bookings-wrapper {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+
+

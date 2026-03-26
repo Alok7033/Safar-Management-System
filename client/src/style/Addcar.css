@@ -1,0 +1,81 @@
+/* Container spacing */
+.car-form {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+.car-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+}
+
+/* Input fields */
+.car-form input,
+.car-form select,
+.car-form textarea {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.95rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.car-form input:focus,
+.car-form select:focus,
+.car-form textarea:focus {
+  border-color: #495057;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Image upload */
+.upload-img {
+  height: 56px;
+  width: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.upload-img:hover {
+  transform: scale(1.05);
+}
+
+.image-label input[type="file"] {
+  display: none;
+}
+
+/* Description textarea */
+.car-form textarea {
+  resize: vertical;
+}
+
+/* Submit button */
+.car-form .btn {
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .car-form {
+    padding: 1.5rem;
+  }
+
+  .upload-img {
+    height: 50px;
+    width: 50px;
+  }
+}

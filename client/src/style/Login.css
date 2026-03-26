@@ -1,0 +1,76 @@
+.login-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #4b5563; /* Tailwind text-gray-600 */
+  font-size: 0.875rem;
+}
+
+.login-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  width: 20rem;
+  max-width: 352px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #6366f1; /* Tailwind text-indigo-500 */
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  outline-color: #6366f1;
+}
+
+.form-toggle {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+.form-submit {
+  background-color: #6366f1;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #1e40af; /* Tailwind blue-800 */
+}
+
+
+
+/* Inside Login.css */
+
+

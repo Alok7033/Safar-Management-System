@@ -1,0 +1,51 @@
+/* Dashboard container */
+.dashboard-container {
+  background-color: #f9f9f9;
+}
+
+/* Cards */
+.dashboard-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  height: 100%;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon Wrapper in Card */
+.icon-wrapper {
+  background-color: rgba(13, 110, 253, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icon-img {
+  height: 24px;
+  width: 24px;
+}
+
+/* Small icon for recent bookings */
+.icon-img-sm {
+  height: 20px;
+  width: 20px;
+}
+
+/* Booking entries */
+.recent-bookings .booking-entry {
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-bg {
+  height: 40px;
+  width: 40px;
+}
+
+/* Monthly revenue */
+.monthly-revenue h3 {
+  font-size: 2rem;
+}

@@ -1,0 +1,46 @@
+/* Container styles */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Left alignment for larger screens */
+.left-align {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .left-align {
+    align-items: flex-start;
+  }
+}
+
+/* Heading styles */
+.title-heading {
+  font-weight: 600;
+  font-size: 2.5rem; /* text-4xl */
+}
+
+@media (min-width: 768px) {
+  .title-heading {
+    font-size: 40px;
+  }
+}
+
+/* Subtitle styles */
+.title-subtitle {
+  margin-top: 0.5rem;
+  font-size: 0.875rem; /* text-sm */
+  color: rgba(107, 114, 128, 0.9); /* Tailwind's text-gray-500/90 */
+  max-width: 39rem; /* Tailwind's max-w-156 => 156 * 0.25rem = 39rem */
+}
+
+@media (min-width: 768px) {
+  .title-subtitle {
+    font-size: 1rem; /* text-base */
+  }
+}
+
